@@ -8,11 +8,12 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet("/index")
-public class index extends HttpServlet {
+@WebServlet("/culture")
+public class culture extends HttpServlet {
+
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.setAttribute("page", "/page/home-page.jsp");
+        request.setAttribute("page", "/page/culture.jsp");
         request.getRequestDispatcher("index.jsp").forward(request, response);
     }
 }

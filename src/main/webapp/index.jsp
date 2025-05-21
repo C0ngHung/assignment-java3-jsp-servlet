@@ -10,8 +10,8 @@
         position: absolute;
         left: 0;
         right: 0;
-        bottom: -10px;
-        height: 10px;
+        bottom: -15px;
+        height: 15px;
         pointer-events: auto;
       }
     </style>

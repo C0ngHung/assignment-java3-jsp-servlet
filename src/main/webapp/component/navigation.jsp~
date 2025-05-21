@@ -41,7 +41,7 @@
 
             <!-- Thể Thao -->
             <li class="relative group">
-                <a href="${pageContext.request.contextPath}/sport"
+                <a href="#"
                    class="relative z-10 border-b-2 border-transparent group-hover:border-[#ff942b] group-hover:text-[#ff942b] transition duration-300 uppercase">
                     Thể Thao
                 </a>
